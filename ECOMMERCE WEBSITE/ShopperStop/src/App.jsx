@@ -8,7 +8,6 @@ import {
 import Home from "./pages/home/Home";
 import MyState from "./context/myState";
 import Order from "./pages/order/Order";
-import NoPage from "./pages/nopage/NoPage";
 import Cart from "./pages/cart/Cart";
 import Dashboard from "./pages/admin/dashboard/Dashboard";
 import ProductInfo from "./pages/productInfo/ProductInfo";
@@ -41,7 +40,6 @@ function App() {
             <ProtectedRoutesForAdmin><AddProduct /></ProtectedRoutesForAdmin>} />
           <Route path="/updateproduct" element={
             <ProtectedRoutesForAdmin><UpdateProduct /></ProtectedRoutesForAdmin>} />
-          <Route path="/*" element={<NoPage />} />
         </Routes>
         <ToastContainer/>
       </Router>
