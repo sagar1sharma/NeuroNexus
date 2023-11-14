@@ -3,12 +3,12 @@ import { getFirestore } from "firebase/firestore";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_api_key,
+  apiKey: import.meta.env.VITE_apiKey,
   authDomain: "shoppersite-eacab.firebaseapp.com",
   projectId: "shoppersite-eacab",
   storageBucket: "shoppersite-eacab.appspot.com",
   messagingSenderId: "341788535452",
-  appId: import.meta.env.VITE_app_id
+  appId: import.meta.env.VITE_appId
 };
 
 
