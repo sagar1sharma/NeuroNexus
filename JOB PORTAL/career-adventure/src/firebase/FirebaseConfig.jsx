@@ -3,14 +3,13 @@ import { getFirestore } from "firebase/firestore";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_api_key,
-  authDomain: "shoppersite-eacab.firebaseapp.com",
-  projectId: "shoppersite-eacab",
-  storageBucket: "shoppersite-eacab.appspot.com",
-  messagingSenderId: "341788535452",
-  appId: import.meta.env.VITE_app_id
+  apiKey: process.env.REACT_APP_apiKey,
+  authDomain: "careeradventure-7d8c1.firebaseapp.com",
+  projectId: "careeradventure-7d8c1",
+  storageBucket: "careeradventure-7d8c1.appspot.com",
+  messagingSenderId: "1018452914022",
+  appId: process.env.REACT_APP_app_id
 };
-
 
 const app = initializeApp(firebaseConfig);
 const fireDB = getFirestore(app);
