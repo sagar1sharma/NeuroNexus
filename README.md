@@ -18,7 +18,7 @@ You can try live website or You can check images attached below for reference
 2. Career-Portal / Job-Board   
     If you don't want to create new user but still want to try, You can use one of two given user credentials  
     a. Email: sagar@gmail.com Password: 123456  (for Admin role)  
-    b. Email: test1@gmail.com Password: 123456  (for User role)
+    b. Email: test1@gmail.com Password: 123456  (for User role)  
     Published: https://career-adventure.vercel.app/  
     ![Alt text](careeradv1.png)
     ![Alt text](careeradv2.png)
